@@ -10,7 +10,7 @@ target('omniMatrices')
 	set_kind('static')
 	set_policy('build.c++.modules', true)
 	add_files('src/omniMatrices/*.cpp|src/omniMatrices/*.m.cpp')
-	add_files('src/library/*.m.cpp', { install = true })
+	add_files('src/omniMatrices/*.m.cpp', { install = true })
 
 target('test')
 	set_kind('binary')
