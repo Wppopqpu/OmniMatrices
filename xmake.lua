@@ -1,3 +1,7 @@
+set_project('OmniMatrices')
+set_version('0.0.1')
+
+
 set_rules('mode.debug', 'mode.release')
 set_languages('c++20')
 
