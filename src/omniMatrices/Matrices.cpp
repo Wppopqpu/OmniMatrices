@@ -1,5 +1,4 @@
-export module OmniMatrices.Matrices;
-
+module OmniMatrices.Matrices;
 
 namespace OmniMatrices
 {
